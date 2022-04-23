@@ -1,0 +1,41 @@
+:root{
+    --navbar-height: 100px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    scroll-margin-top: var(--navbar-height);
+}
+
+.text-bigger{
+    font-size: 50px;
+}
+
+.navbar{
+    height: var(--navbar-height);
+    font-weight: 400;
+}
+
+.navbar-brand{
+    font-size: 35px;
+}
+
+.nav-link{
+    font-size: 25px;
+}
+
+#mainSection{
+    background-color: aquamarine;
+}
+
+#portfolioSection{
+    background-color: rgb(226, 235, 251);
+}
+
+.default-sections-min-height{
+    min-height: calc(100vh - var(--navbar-height));
+}
