@@ -1,41 +1,45 @@
-:root{
+:root {
     --navbar-height: 100px;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-section{
+section {
     scroll-margin-top: var(--navbar-height);
 }
 
-.text-bigger{
+.text-bigger {
     font-size: 50px;
 }
 
-.navbar{
-    height: var(--navbar-height);
+.navbar {
+    min-height: var(--navbar-height);
     font-weight: 400;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 35px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 25px;
 }
 
-#mainSection{
+#mainSection, #sobreSection, #contatoSection {
     background-color: aquamarine;
 }
 
-#portfolioSection{
+#portfolioSection, #socialSection {
     background-color: rgb(226, 235, 251);
 }
 
-.default-sections-min-height{
+.default-sections-min-height {
     min-height: calc(100vh - var(--navbar-height));
+}
+
+.w-20 {
+    width: 20%;
 }
