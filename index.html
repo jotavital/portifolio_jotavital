@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="sticky-top navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#mainSection">João Pedro Vital</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -39,7 +39,7 @@
         <section id="mainSection" class="default-sections-min-height col-12 d-flex align-items-center">
             <div class="col-12">
                 <div class="col-12 d-flex justify-content-center">
-                    <img src="./assets/img/picles.jpg" alt="João Pedro Vital" class="w-20 rounded-circle">
+                    <img src="./assets/img/jotavital.jpg" alt="João Pedro Vital" class="rounded-profile-picture rounded-circle">
                 </div>
                 <div class="col-12 py-2 mt-3 text-center">
                     <h1>João Pedro Vital</h1>
@@ -47,25 +47,27 @@
                 </div>
             </div>
         </section>
-        <section id="portfolioSection" class="default-sections-min-height col-12 py-5">
-            <div class="col-12 d-flex justify-content-center">
-                <h2 class="text-bigger">Portfólio</h2>
-            </div>
-            <div class="col-12 d-flex justify-content-center">
-                <div class="col-12 row">
-                    <div class="col-4 py-2 mt-3 text-center">
-                        <img class="w-100 rounded-3" alt="portfolio-1" src="https://www.pixeden.com/media/k2/galleries/1842/001-holding-hand-UI-UX-device-samrt-phone-iphone-app-graphic-scene-showacase-free-psd-mockup-pixeden.jpg">
-                    </div>
-                    <div class="col-4 py-2 mt-3 text-center">
-                        <img class="w-100 rounded-3" alt="portfolio-2" src="https://www.pixeden.com/media/k2/galleries/1842/001-holding-hand-UI-UX-device-samrt-phone-iphone-app-graphic-scene-showacase-free-psd-mockup-pixeden.jpg">
-                    </div>
-                    <div class="col-4 py-2 mt-3 text-center">
-                        <img class="w-100 rounded-3" alt="portfolio-3" src="https://www.pixeden.com/media/k2/galleries/1842/001-holding-hand-UI-UX-device-samrt-phone-iphone-app-graphic-scene-showacase-free-psd-mockup-pixeden.jpg">
+        <section id="portfolioSection" class="default-sections-min-height col-12 py-5 d-flex align-items-center">
+            <div class="col-12">
+                <div class="col-12 d-flex justify-content-center">
+                    <h2 class="text-bigger">Portfólio</h2>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="col-12 row">
+                        <div class="col-4 py-2 mt-3 text-center">
+                            <img class="w-100 rounded-3" alt="portfolio-1" src="https://www.pixeden.com/media/k2/galleries/1842/001-holding-hand-UI-UX-device-samrt-phone-iphone-app-graphic-scene-showacase-free-psd-mockup-pixeden.jpg">
+                        </div>
+                        <div class="col-4 py-2 mt-3 text-center">
+                            <img class="w-100 rounded-3" alt="portfolio-2" src="https://www.pixeden.com/media/k2/galleries/1842/001-holding-hand-UI-UX-device-samrt-phone-iphone-app-graphic-scene-showacase-free-psd-mockup-pixeden.jpg">
+                        </div>
+                        <div class="col-4 py-2 mt-3 text-center">
+                            <img class="w-100 rounded-3" alt="portfolio-3" src="https://www.pixeden.com/media/k2/galleries/1842/001-holding-hand-UI-UX-device-samrt-phone-iphone-app-graphic-scene-showacase-free-psd-mockup-pixeden.jpg">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="sobreSection" class="default-sections-min-height col-12 py-5">
+        <section id="sobreSection" class="default-sections-min-height col-12 py-5 d-flex align-items-center">
             <div class="col-12 d-flex justify-content-center">
                 <div class="col-9">
                     <h2 class="text-bigger text-center mb-5">Sobre</h2>
@@ -127,9 +129,30 @@
                 </div>
             </div>
         </section>
-        <section id="contatoSection" class="default-sections-min-height col-12 py-5">
+        <section id="contatoSection" class="default-sections-min-height col-12 py-5 d-flex align-items-center">
             <div class="col-12 d-flex justify-content-center">
-                <h2 class="text-bigger">Contato</h2>
+                <div class="col-10">
+                    <h2 class="text-bigger text-center mb-5">Contato</h2>
+                    <div class="col-12 d-flex justify-content-center">
+                        <form action="#" class="col-5">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Nome">
+                                <label for="name" class="form-label">Nome</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="E-mail">
+                                <label for="email" class="form-label">E-mail</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" rows="3" placeholder="Mensagem"></textarea>
+                                <label for="message" class="form-label">Mensagem</label>
+                            </div>
+                            <div class="col-12 mt-4 d-flex justify-content-center">
+                                <button type="submit" class="col-3 btn btn-success">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
