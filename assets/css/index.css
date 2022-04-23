@@ -54,9 +54,20 @@ section {
 .experience-logos img {
     width: 130px;
     max-height: 130px;
+    margin-bottom: 40px;
 }
 
-.rounded-profile-picture{
+.rounded-profile-picture {
     width: 250px;
     height: 250px;
+}
+
+.social-logo {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 25px;
+}
+
+.social-logo a:hover {
+    color: #52489C !important;
 }
