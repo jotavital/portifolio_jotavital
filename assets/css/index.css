@@ -27,14 +27,20 @@ section {
 
 .nav-link {
     font-size: 25px;
+    border-radius: 10px !important;
+    max-height: 45px;
+    display: flex;
+    align-items: center;
 }
 
 #mainSection, #sobreSection, #contatoSection {
-    background-color: #EEEEEE;
+    background-color: #f5f3f4;
+    color: #284b63;
 }
 
 #portfolioSection, #experienciaSection {
-    background-color: #E8E8E8;
+    background-color: #dee2e6;
+    color: #284b63;
 }
 
 .default-sections-min-height {
@@ -79,4 +85,8 @@ section {
 
 .c-gold {
     color: #fb8500 !important;
+}
+
+.nav-link.active {
+    background-color: #ee9b00 !important;
 }
